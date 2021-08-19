@@ -653,7 +653,7 @@
 
     #elif EITHER(MKS_MINI_12864, FYSETC_MINI_12864)
 
-      #define BEEPER_PIN             EXP1_10_PIN
+      #define BEEPER_PIN             -1
       #define BTN_ENC                EXP1_09_PIN
       #define SD_DETECT_PIN          EXP2_04_PIN
 
@@ -705,7 +705,7 @@
 
     #elif ENABLED(MINIPANEL)
 
-      #define BEEPER_PIN                      42
+      #define BEEPER_PIN                      -1
       // not connected to a pin
       #define LCD_BACKLIGHT_PIN               65  // backlight LED on A11/D65
 
